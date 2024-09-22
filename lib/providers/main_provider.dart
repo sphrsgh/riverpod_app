@@ -3,6 +3,9 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'main_provider.g.dart';
 
+//! Terminal command to build
+// dart run build_runner watch
+
 @riverpod
 class CountersNotifier extends _$CountersNotifier {
   @override
